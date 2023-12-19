@@ -1,4 +1,4 @@
-package com.in28minutes.game.GameRunner;
+package com.in28minutes.game;
 
 public interface GamingConsole {
     String game = null;

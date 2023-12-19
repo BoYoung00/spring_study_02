@@ -1,4 +1,4 @@
-package com.in28minutes.learmspringframework;
+package com.in28minutes.game;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

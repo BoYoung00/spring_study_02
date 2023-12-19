@@ -1,17 +1,9 @@
-package com.in28minutes.game.GameRunner;
+package com.in28minutes.game;
 
 import org.springframework.stereotype.Component;
 
 @Component
-class PacmanGame implements GamingConsole{
-    @Override
-    public void up() {
-        System.out.println("픽맨UP");
-    }
-}
-
-@Component
-class GameRunner {
+public class GameRunner {
     GamingConsole game;
 
     public GameRunner(GamingConsole game) {
